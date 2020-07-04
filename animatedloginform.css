@@ -1,0 +1,62 @@
+*{
+	margin: 0;padding: 0;
+}
+body{
+	background-color: SkyBlue;
+}
+
+.template{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	display: flex;
+	
+}
+img{position: relative;
+	height: 500px;
+	
+}
+.loginform{
+	text-align: center;background: rgb(0,0,0,0.1);
+}
+
+form{position: relative;
+	top:180px;
+
+}
+
+h2{position: relative;
+	top:-35px;color: gray;
+}
+
+input{
+	margin: 7px;padding: 10px;
+}
+.signup{
+	text-decoration: none;
+}
+
+ .social{
+ 	display: inline;
+ 	position: relative;
+ 	top:200px;
+ }
+
+ /*hover on social media */
+
+ #one:hover{
+ 	border-radius: 50%;
+ }
+ #two:hover{
+ 	border-radius: 50%;
+ }
+ #three:hover{
+ 	border-radius: 50%;
+ }
+
+/*rotation effects*/
+
+#pic{
+    	transform: rotateY(-180deg);
+    }
